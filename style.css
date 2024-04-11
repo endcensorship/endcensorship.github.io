@@ -1,3 +1,79 @@
-p {
-
+body {
+    margin: 0 0 0 0;
+    /*background-color: #FAD4DC;*/
 }
+header h1{
+    float: top;
+    text-align: left;
+    background-color: #FAD4DC;
+    padding: 10px 2vw 10px 2vw;
+    margin: 0 0 0 0;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+nav {
+    display: flex;
+    position: relative;
+    bottom: 5.4vh;
+    left: 200px;
+}
+nav a {
+    flex-grow: .1;
+}
+p {
+    font-size: 16pt;
+    font-family: "Helvetica Neue";
+}
+h2 {
+    font-size: 20pt;
+    font-family: "Helvetica Neue";
+    text-decoration: bold;
+}
+h1 {
+    font-size: 28pt;
+    font-family: "Helvetica Neue";
+    text-decoration: bold;
+}
+a {
+    text-decoration: underline;
+    font-size: 16pt;
+    font-family: "Helvetica Neue";
+    color: black;
+}
+ul {
+    font-size: 16pt;
+    font-family: "Helvetica Neue";
+}
+/*home*/
+#content {
+    padding: 0 2vw 0 2vw;
+}
+/*share*/
+#share-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+#share-left-left{
+    /*background-color: #5BCEFA;*/
+    flex-grow: 1;
+    padding-bottom: 90vh;
+}
+#share-left{
+    /*background-color: #F5A9B8;*/
+    flex-grow: 1;
+    padding-bottom: 90vh;
+}
+#share-center{
+    /*background-color: #FFFFFF;*/
+    text-align: center;
+    flex-grow: 1;
+}
+#share-right{
+    /*background-color: #F5A9B8;*/
+    flex-grow: 1;
+}
+#share-right-right{
+    /*background-color: #5BCEFA;*/
+    flex-grow: 1;
+}
+/*#080c21 <- good background color*/
