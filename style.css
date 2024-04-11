@@ -1,6 +1,7 @@
 body {
     margin: 0 0 0 0;
     /*background-color: #FAD4DC;*/
+    overflow-x: none;
 }
 header h1{
     float: top;
