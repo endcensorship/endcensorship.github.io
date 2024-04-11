@@ -14,9 +14,9 @@ header h1{
 }
 nav {
     display: flex;
+    justify-content: right;
     position: relative;
     bottom: 5.4vh;
-    left: 200px;
 }
 nav a {
     flex-grow: .1;
