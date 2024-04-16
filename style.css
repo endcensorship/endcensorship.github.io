@@ -4,12 +4,20 @@ body {
     color: white;
     overflow-x: none;
 }
-header h1{
+header {
+    height: 58px;
+}
+header h1 {
     float: top;
-    text-align: left;
     background-color: #14182C;
-    padding: 10px 2vw 10px 2vw;
     margin: 0 0 0 0;
+    padding-top: 10px;
+    padding-left: 1vw;
+    font-size: 30pt;
+}
+
+.pageHead{
+    padding: 0 2vw 10px 2vw;
     border-bottom-style: solid;
     border-width: 1px;
 }
@@ -17,10 +25,21 @@ header h1{
     display: flex;
     justify-content: right;
     position: relative;
-    bottom: 40px;
+    bottom: 62px;
 }
 #nav a {
-    flex-grow: .1;
+    height: 45px;
+    padding: 16px 3vw 0 3vw;
+    padding-top: 16px;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF30;
+}
+#nav .last {
+    border-right-style: none;
+}
+#nav a:hover {
+    background-color: #24283C
 }
 p {
     font-size: 16pt;
@@ -47,11 +66,22 @@ ul {
     font-family: "Helvetica Neue";
 }
 .content {
-    margin: 0 20vw 0 20vw;
+    margin: 3vh 20vw 3vh 20vw;
     padding: 0 2vw 0 2vw;
     background-color: #14182C;
     border-style: solid;
     border-width: 1px;
+}
+footer {
+    background-color: #14182C;
+    border-top-style: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 50px;
 }
 
 /*share*/
