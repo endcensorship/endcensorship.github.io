@@ -1,6 +1,6 @@
 body {
     margin: 0 0 0 0;
-    background-color: #080c21;
+    background-color: #14182C;
     color: white;
     overflow-x: none;
 }
@@ -64,6 +64,13 @@ a {
 ul {
     font-size: 16pt;
     font-family: "Helvetica Neue";
+    line-height: 26pt;
+}
+main {
+    background-color: #080c21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .content {
     margin: 3vh 20vw 3vh 20vw;
@@ -78,39 +85,12 @@ footer {
     border-width: 1px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     height: 50px;
+    float: end;
 }
-
-/*share*/
-#share-body{
-    display: flex;
-    justify-content: space-evenly;
-}
-#share-left-left{
-    /*background-color: #5BCEFA;*/
-    flex-grow: 1;
-    padding-bottom: 90vh;
-}
-#share-left{
-    /*background-color: #F5A9B8;*/
-    flex-grow: 1;
-    padding-bottom: 90vh;
-}
-#share-center{
-    /*background-color: #FFFFFF;*/
+#shareContent {
     text-align: center;
-    flex-grow: 1;
 }
-#share-right{
-    /*background-color: #F5A9B8;*/
-    flex-grow: 1;
-}
-#share-right-right{
-    /*background-color: #5BCEFA;*/
-    flex-grow: 1;
-}
-/*#080c21 <- good background color*/
-/*#14182c*/
