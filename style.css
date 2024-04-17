@@ -140,10 +140,14 @@ footer {
         border-color: #FFFFFF30; 
         background-color: #14182C;
         font-size: 16pt;
+        text-wrap: nowrap;
     }
     footer *{
         font-size: 2.5vw;
         flex-grow: 0;
         padding: 0 0 0 0;
+    }
+    #OCHead {
+        font-size: 16pt;
     }
 }
