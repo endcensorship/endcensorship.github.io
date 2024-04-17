@@ -105,6 +105,8 @@ footer {
 @media screen and (max-width: 1180px) {
     .content {
         margin: 1vh 0 1vh 0;
+        border-left-style: hidden;
+        border-right-style: hidden;
     }
     p {
         font-size: 12pt;
@@ -138,5 +140,10 @@ footer {
         border-color: #FFFFFF30; 
         background-color: #14182C;
         font-size: 16pt;
-    } 
+    }
+    footer *{
+        font-size: 2.5vw;
+        flex-grow: 0;
+        padding: 0 0 0 0;
+    }
 }

@@ -6,17 +6,23 @@
         </title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js"></script> 
     </head>
     <body>
         <main>
         <header>
             <h1 class="pageHead">Home</h1>
             <span id="nav">
+                <span id="navLinks" style="display: flex">
                 <a href="online-censorship">Censorship Online</a>
                 <a href="book-banning">Book Banning</a>
                 <a href="organizations">Organizations</a>
                 <a href="share">Share</a>
-                <a href="sources" class="last">Sources</a>
+                <a href="sources">Sources</a>
+                </span>
+                <a href="javascript:void(0);" id="icon" class="icon" onclick="myFunction()" onmouseenter="highlight()" onmouseleave="highlight()">
+                    <img src="hb-icon.png" id="iconImg" width="61px" height="61px"></img>
+                </a>
             </span>
         </header>
         <div class="content">
