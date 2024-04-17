@@ -34,6 +34,7 @@ header h1 {
     border-right-style: solid;
     border-width: 1px;
     border-color: #FFFFFF30;
+    text-align: center;
 }
 #nav .last {
     border-right-style: none;
@@ -93,4 +94,49 @@ footer {
 }
 #shareContent {
     text-align: center;
+}
+#nav a.icon {
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-style: hidden;
+  }
+
+@media screen and (max-width: 1180px) {
+    .content {
+        margin: 1vh 0 1vh 0;
+    }
+    p {
+        font-size: 12pt;
+    }
+    a {
+        font-size: 12pt;
+    }
+    h2 {
+        font-size: 16pt;
+    }
+    h1 {
+        font-size: 18pt;
+    }
+    ul {
+        font-size: 12pt;
+    }
+    #navLinks {
+        flex-direction: column;
+        justify-content: right;
+        position: relative;
+        top: 62px;
+        left: 61px;
+    }
+    #nav a {
+        text-align: center;
+        height: 45px;
+        padding: 16px 20vw 0 20vw;
+        border-style: solid;
+        border-top-style: hidden;
+        border-width: 1px;
+        border-color: #FFFFFF30; 
+        background-color: #14182C;
+        font-size: 16pt;
+    } 
 }
