@@ -115,7 +115,7 @@ footer {
 
 @media screen and (max-width: 1180px) {
     .content {
-        margin: 1vh 0 1vh 0;
+        margin: 1vh 2vw 1vh 2vw;
         border-left-style: hidden;
         border-right-style: hidden;
     }
@@ -144,7 +144,7 @@ footer {
     #nav a {
         text-align: center;
         height: 45px;
-        padding: 16px 20vw 0 20vw;
+        padding: 16px 24vw 0 24vw;
         border-style: solid;
         border-top-style: hidden;
         border-width: 1px;
