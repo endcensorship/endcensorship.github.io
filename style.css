@@ -112,6 +112,11 @@ footer {
     float: right;
     margin: 0 0 0 10px;
 }
+.organization {
+    font-size: 20pt;
+    font-family: "Helvetica Neue";
+    text-decoration: bold;
+}
 
 @media screen and (max-width: 1180px) {
     .content {
@@ -126,6 +131,9 @@ footer {
         font-size: 12pt;
     }
     h2 {
+        font-size: 16pt;
+    }
+    .organization {
         font-size: 16pt;
     }
     h1 {
