@@ -36,9 +36,6 @@ header h1 {
     border-color: #FFFFFF30;
     text-align: center;
 }
-#nav .last {
-    border-right-style: none;
-}
 #nav a:hover {
     background-color: #24283C;
 }
